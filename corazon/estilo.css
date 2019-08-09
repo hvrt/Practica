@@ -1,0 +1,27 @@
+div.corazon{
+    display: block;
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #FFC0CB;
+    position: relative;
+    transform: rotateZ(-45deg);
+}
+div.corazon:after,div.corazon:before{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: #FFC0CB;
+    border-radius: 50px;
+    position: absolute;
+}
+div.corazon:after{
+    top: -50px;
+    left: 0;
+}
+
+div.corazon::before{
+    top: 0;
+    left: 50px;
+}
