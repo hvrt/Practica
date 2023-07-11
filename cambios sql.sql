@@ -24,4 +24,4 @@ update city
 Delete from city where ID= 4081;
 
 show tables;
-select * from countryinfo;
+select * from country;
