@@ -1,7 +1,7 @@
 use world_x;
 
 -- deshabilita el modo seguro 
-SET SQL_SAFE_UPDATES = 0;
+SET SQL_SAFE_UPDATES = 1;
 
 show tables;
 select * from City;
@@ -25,3 +25,4 @@ Delete from city where ID= 4081;
 
 show tables;
 select * from country;
+select * from city;
