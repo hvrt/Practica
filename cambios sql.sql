@@ -1,7 +1,7 @@
 use world_x;
 
 -- deshabilita el modo seguro 
-SET SQL_SAFE_UPDATES = 1;
+SET SQL_SAFE_UPDATES = 0;
 
 show tables;
 select * from City;
