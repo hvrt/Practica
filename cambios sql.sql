@@ -1,8 +1,8 @@
 use world_x;
 
 -- deshabilita el modo seguro 
-SET SQL_SAFE_UPDATES = 0;
-
+SET SQL_SAFE_UPDATES = 1;
+show tables;
 show tables;
 select * from City;
 select * from City where CountryCode = "MEX";
